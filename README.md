@@ -12,7 +12,7 @@ lext.newText(text, font, r, g, b, a, x, y, size)
 lext = require "lext"
 
 function love.draw()
-  lext.newText("Hello World!","font_name.ttf",255,255,255,1,100,100,20)
+  lext.newText("Hello World!","font_name.ttf",1,1,1,1,100,100,20)
 end
 ```
 
